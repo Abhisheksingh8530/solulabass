@@ -1,0 +1,42 @@
+#gender{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    text-align: center;
+    
+    color: #6B6B6B;
+
+}
+    
+.header_main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-bottom: 1px solid #F1F1F1
+    
+    
+}
+
+.header_filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+
+.header_main input {
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 35px;
+    
+    
+}
+    
+
+
+    
+
+

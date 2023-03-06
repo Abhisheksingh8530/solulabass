@@ -1,0 +1,96 @@
+.name {
+  position: absolute;
+  width: 42px;
+  height: 17px;
+  left: 125px;
+  top: 121px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+
+  text-align: center;
+  border: 1px solid #F1F1F1;
+
+  
+
+  color: #6b6b6b;
+}
+
+.patient_info {
+  display: flex;
+  column-gap: 30px;
+  margin-left: 39px;
+
+  
+}
+
+.patient_basic_detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  
+}
+
+.patient_detail-section {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  column-gap: 20vw;
+  padding: 29px;
+  
+
+  
+  
+}
+
+.info_heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+
+  text-align: center;
+
+  color: #6b6b6b;
+}
+.info_value {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  color: #242831;
+}
+
+.info_marks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.info_container {
+  border-right: 1px solid rgba(107, 107, 107, 0.5);
+  font-size: medium;
+}
+p{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 180%;
+margin: 0;
+max-width: 15ch;
+/* or 22px */
+
+
+color: #29B712;
+
+}
+.border_right{
+  border-right: 1px solid rgba(107, 107, 107, 0.5);
+}
